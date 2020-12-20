@@ -1,0 +1,69 @@
+/* game board table */
+body {
+  background-color: #b1d9fc;
+  color: rgba(255, 156, 26, 1);
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0,.8);
+}
+
+h3{
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+img{
+  height: 50px;
+  width: 50px;
+}
+
+button {
+  background-color: #b1d9fc;
+  color: rgba(255, 156, 26, 1);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+  border: solid 1px #666;
+  border-radius: 10%;
+  padding: .25rem;
+}
+
+button:hover {
+  background-color:#1741ff;
+  box-shadow: 1px 1px;
+}
+
+#board td {
+  width: 70px;
+  height: 70px;
+  border: solid 1px #666;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 90%;
+}
+
+#column-top td {
+  border: dashed 1px rgb(70, 68, 68);
+  margin-top: 3rem;
+}
+
+#column-top td:hover {
+  background-color: rgba(255, 156, 26, 1);
+}
+
+
+#newGame {
+  width: 100%;
+}
