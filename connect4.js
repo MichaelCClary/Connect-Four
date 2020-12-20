@@ -101,7 +101,6 @@ function handleClick(evt) {
   }
 
   // place piece in board and add to HTML table
-  // TODO: add line to update in-memory board
   placeInTable(y, x);
   board[y][x] = currPlayer;
 
@@ -137,7 +136,7 @@ function checkForWin() {
     );
   }
 
-  // TODO: Checks in every direction to see if there are 4 in a row 
+  //Checks in every direction to see if there are 4 in a row 
 
   for (var y = 0; y < HEIGHT; y++) {
     for (var x = 0; x < WIDTH; x++) {
